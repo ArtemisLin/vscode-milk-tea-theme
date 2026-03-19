@@ -54,13 +54,12 @@ Download **MapleMono-NF-CN** from the [releases page](https://github.com/subfram
 
 ## Install
 
-### From VS Code Marketplace
+### From VSIX 文件（推荐）
 
-Search for **Milk Tea** in the Extensions panel, or:
-
-```
-ext install guyu.milk-tea-theme
-```
+1. 在 [Releases](https://github.com/ArtemisLin/vscode-milk-tea-theme/releases) 页面下载最新的 `.vsix` 文件
+2. 打开 VS Code，`Ctrl+Shift+P` → `Extensions: Install from VSIX...`
+3. 选择下载的 `.vsix` 文件
+4. `Ctrl+Shift+P` → `Color Theme` → **Milk Tea Light** or **Milk Tea Dark**
 
 ### From Source
 
@@ -85,7 +84,7 @@ ext install guyu.milk-tea-theme
 
 ## Feedback
 
-Issues and suggestions welcome on [GitHub](https://github.com/guyu/milk-tea-theme/issues).
+Issues and suggestions welcome on [GitHub](https://github.com/ArtemisLin/vscode-milk-tea-theme/issues).
 
 ## License
 
