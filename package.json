@@ -4,6 +4,10 @@
   "description": "A warm, creamy theme inspired by Claude's desktop palette. Designed to make VS Code feel less intimidating and more welcoming.",
   "version": "0.2.0",
   "publisher": "guyu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtemisLin/vscode-milk-tea-theme"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
