@@ -1,0 +1,77 @@
+{
+  "name": "milk-tea-theme",
+  "displayName": "Milk Tea — Warm & Friendly Theme",
+  "description": "A warm, creamy theme inspired by Claude's desktop palette. Designed to make VS Code feel less intimidating and more welcoming.",
+  "version": "0.2.0",
+  "publisher": "guyu",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Milk Tea Light",
+        "uiTheme": "vs",
+        "path": "./themes/milk-tea-light.json"
+      },
+      {
+        "label": "Milk Tea Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/milk-tea-dark.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "milk-tea-icons",
+        "label": "Milk Tea Icons",
+        "path": "./themes/claude-warm-icon-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "milkTea.applySettings",
+        "title": "Milk Tea: 应用推荐设置"
+      },
+      {
+        "command": "milkTea.resetSettings",
+        "title": "Milk Tea: 恢复默认设置"
+      }
+    ],
+    "configurationDefaults": {
+      "editor.fontSize": 15,
+      "editor.fontFamily": "'Maple Mono NF CN', 'Maple Mono NF', 'Maple Mono', Consolas, 'Courier New', monospace",
+      "editor.lineHeight": 1.8,
+      "editor.cursorBlinking": "smooth",
+      "editor.cursorSmoothCaretAnimation": "on",
+      "editor.smoothScrolling": true,
+      "editor.minimap.enabled": false,
+      "editor.bracketPairColorization.enabled": true,
+      "editor.guides.bracketPairs": "active",
+      "editor.renderWhitespace": "none",
+      "editor.padding.top": 16,
+      "breadcrumbs.enabled": false,
+      "workbench.tips.enabled": false,
+      "workbench.startupEditor": "welcomePage",
+      "window.commandCenter": true,
+      "workbench.layoutControl.enabled": false
+    }
+  },
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "warm",
+    "friendly",
+    "milk tea",
+    "claude",
+    "beginner"
+  ],
+  "license": "MIT"
+}
