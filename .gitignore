@@ -1,3 +1,7 @@
 node_modules/
 *.vsix
 .vscode-test/
+
+# 本地调试临时文件
+demo_errors.py
+error-color-preview.html
